@@ -1,0 +1,18 @@
+node_modules
+dist
+*.tsbuildinfo
+.cache
+
+# Misc
+.DS_Store
+.idea
+*.pem
+
+# Logs
+logs
+*.log
+
+# Local env files
+.env
+.env.*
+
