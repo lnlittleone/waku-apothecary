@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "waku dev --with-ssr",
     "build": "waku build --with-ssr",
-    "start": "waku start --with-ssr"
+    "start": "waku start --with-ssr",
+    "lint": "eslint 'src/**/*.ts', 'src/**/*.tsx'"
   },
   "dependencies": {
     "react": "18.3.0-canary-6c3b8dbfe-20240226",
@@ -17,7 +18,12 @@
   "devDependencies": {
     "@types/react": "18.2.59",
     "@types/react-dom": "18.2.19",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
     "autoprefixer": "10.4.17",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.34.0",
     "typescript": "5.3.3"
   }
 }
